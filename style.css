@@ -1,0 +1,50 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header {
+    height:500px;
+    width:100%;
+    background-color: red;
+}
+
+.main-visual {
+    height:500px;
+    width:100%;
+    background-color: coral;
+}
+
+.main {
+    /*height:1400px;
+    width:960px;*/
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+}
+
+.content1 {
+    height:1400px;
+    width:230px;
+    background-color:chartreuse;
+}
+
+.content2 {
+    height:1400px;
+    width:500px;
+    background-color:darkgreen;
+}
+
+.content3 {
+    height:1400px;
+    width:230px;
+    background-color:chartreuse;
+}
+
+.footer {
+    height:100px;
+    width:100%;
+    background-color: blue;
+}
