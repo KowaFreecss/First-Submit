@@ -69,5 +69,11 @@
   @media screen and (max-width:768px) {
     main{
       display:block;
+      width :90%;
+    }
+    
+    .step-box{
+      width :100%;
+      margin-bottom: 30px;
     }
   }
